@@ -1,13 +1,15 @@
 # ColormapsExamples
 
+Small, interactive colormap example.
+
 ## Local
 
 ``` bash
-conda create -n my-conda-env         # creates new virtual env
-conda activate my-conda-env          # activate environment in terminal
-conda install jupyter                # install jupyter + notebook
-cd my-path
-jupyter notebook                     # start server + kernel inside my-conda-env
+conda create -n my-conda-env           # creates new virtual env
+conda activate my-conda-env            # activate environment in terminal
+cd my-local-path                       # change to this repo directory 
+conda install --file requirements.txt  # install jupyter + notebook and other requirements
+jupyter notebook                       # start server + kernel inside my-conda-env
 ```
 
 ## Online
